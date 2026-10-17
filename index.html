@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firman Suka Damai | Portfolio</title>
+<meta name="description" content="Portfolio Firman Suka Damai: mahasiswa Teknik Informatika, web developer, dan UI/UX designer.">
+<meta name="author" content="Firman Suka Damai">
+<meta name="theme-color" content="#1b2a49">
+<meta property="og:title" content="Firman Suka Damai | Portfolio">
+<meta property="og:description" content="Web developer dan UI/UX designer dengan fokus pada pengalaman digital yang rapi dan mudah dipakai.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<a href="#main" class="skip">Lewati ke konten</a>
+
+<header class="site-header" id="header">
+  <div class="container nav-container">
+    <a href="#home" class="brand" aria-label="Beranda"><span>F</span>R</a>
+    <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Portofolio</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Ganti tema gelap/terang"><i class="fas fa-moon"></i></button>
+      <button class="icon-btn menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Mahasiswa Teknik Informatika</span>
+        <h1>Halo, saya <span>Firman Suka Damai</span></h1>
+        <p class="role">Saya seorang <strong id="typed" aria-live="polite"></strong><span class="caret"></span></p>
+        <p>Saya membuat website yang rapi, cepat, dan mudah dipakai.</p>
+        <div class="cta-group">
+          <a href="#projects" class="btn btn-primary">Lihat portofolio</a>
+          <a href="#contact" class="btn btn-secondary">Hubungi saya</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong data-count="1" data-suffix="+">0</strong><span>Tahun belajar</span></li>
+          <li><strong data-count="0" data-suffix="">0</strong><span>Proyek</span></li>
+          <li><strong data-count="100" data-suffix="%">0</strong><span>Fokus ke pengguna</span></li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <div class="ring" aria-hidden="true"></div>
+        <div class="profile-frame">
+          <img src="fotoprofil.jpg" alt="Foto profil Firman Suka Damai" width="420" height="420">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container section-heading">
+      <h2>Mengenal saya lebih dekat</h2>
+    </div>
+    <div class="container about-grid reveal">
+      <aside class="info-card" aria-label="Info singkat">
+        <h3>Info singkat</h3>
+        <dl>
+          <div><dt>Nama</dt><dd>Firman Suka Damai Gulo</dd></div>
+          <div><dt>Status</dt><dd>Mahasiswa Teknik Informatika</dd></div>
+          <div><dt>Fokus</dt><dd>Frontend & UI/UX</dd></div>
+          <div><dt>Terbuka untuk</dt><dd>Proyek website & kolaborasi</dd></div>
+        </dl>
+      </aside>
+      <div class="about-text">
+        <p>Saya mahasiswa Teknik Informatika yang tertarik pada pengembangan web, desain antarmuka, dan solusi digital yang bermanfaat.</p>
+        <p>Menurut saya, teknologi yang baik bukan hanya terlihat modern, tetapi juga menyampaikan pesan dengan jelas, menyederhanakan proses, dan membuat pengguna nyaman.</p>
+        <div class="mini-list"><span>Frontend</span><span>UI/UX</span><span>JavaScript</span><span>Web Design</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt-section">
+    <div class="container section-heading center">
+      <h2>Keahlian saya</h2>
+      <p class="sub">Persentase menunjukkan tingkat penguasaan saya saat ini.</p>
+    </div>
+    <div class="container skill-grid">
+      <article class="skill-card">
+        <div class="icon-wrap"><i class="fas fa-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Membuat tampilan dan fungsi website yang ringan, cepat, dan mudah digunakan.</p>
+        <div class="bar" data-level="75"><span></span><em>75%</em></div>
+      </article>
+      <article class="skill-card">
+        <div class="icon-wrap"><i class="fas fa-palette"></i></div>
+        <h3>UI/UX Design</h3>
+        <p>Merancang pengalaman pengguna yang nyaman, rapi, dan sesuai kebutuhan.</p>
+        <div class="bar" data-level="70"><span></span><em>70%</em></div>
+      </article>
+      <article class="skill-card">
+        <div class="icon-wrap"><i class="fas fa-lightbulb"></i></div>
+        <h3>Digital Solutions</h3>
+        <p>Menyusun ide digital tepat guna untuk menjawab kebutuhan nyata.</p>
+        <div class="bar" data-level="65"><span></span><em>65%</em></div>
+      </article>
+    </div>
+    <div class="container tools">
+      <h3>Teknologi yang saya pelajari</h3>
+      <div class="mini-list">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container section-heading center">
+      <h2>Portofolio</h2>
+      <p class="sub">Beberapa bidang yang saya kerjakan dan kembangkan.</p>
+    </div>
+    <div class="container project-grid">
+      <article class="project-card reveal">
+        <div class="thumb" aria-hidden="true"><i class="fas fa-laptop-code"></i></div>
+        <div class="project-body">
+          <h3>Website Company Profile</h3>
+          <p>Website informatif dengan tampilan responsif dan navigasi yang mudah digunakan.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+      </article>
+      <article class="project-card reveal">
+        <div class="thumb" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
+        <div class="project-body">
+          <h3>Dashboard Informasi</h3>
+          <p>Eksplorasi antarmuka dashboard yang menyajikan informasi dengan jelas.</p>
+          <div class="tags"><span>UI/UX</span><span>Dashboard</span></div>
+        </div>
+      </article>
+      <article class="project-card reveal">
+        <div class="thumb" aria-hidden="true"><i class="fas fa-mobile-screen-button"></i></div>
+        <div class="project-body">
+          <h3>Desain Aplikasi Mobile</h3>
+          <p>Konsep antarmuka aplikasi dengan alur penggunaan yang sederhana.</p>
+          <div class="tags"><span>Figma</span><span>UI/UX</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container contact-panel">
+      <div class="contact-copy">
+        <h2>Mari berkolaborasi</h2>
+        <p>Punya ide atau ingin berdiskusi tentang proyek website? Kirim pesan melalui formulir ini.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <input id="nama" name="nama" type="text" autocomplete="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="4" required></textarea>
+        </div>
+        <p class="form-msg" id="formMsg" aria-live="polite"></p>
+        <button class="btn btn-primary btn-full" type="submit">Kirim lewat WhatsApp</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2026 Firman Suka Damai. Dibuat dengan semangat belajar.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</button>
+<script src="script.js" defer></script>
+</body>
+</html>
